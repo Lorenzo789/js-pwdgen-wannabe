@@ -13,5 +13,5 @@ document.getElementById('user-fav-color').innerHTML = userFavoriteColor;
 
 
 // Name + Surname + Favorite Color //
-let userInfo = userName + userSurName + userFavoriteColor + 22;
-document.getElementById('user-info').innerHTML = userInfo
+let userPassword = userName + userSurName + userFavoriteColor + 22;
+document.getElementById('user-password').innerHTML = userPassword
