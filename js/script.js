@@ -15,3 +15,10 @@ document.getElementById('user-fav-color').innerHTML = userFavoriteColor;
 // Name + Surname + Favorite Color //
 let userPassword = userName + userSurName + userFavoriteColor + 22;
 document.getElementById('user-password').innerHTML = userPassword
+
+// Bonus //
+function changeColor() {
+    document.getElementById("user-name").style.color = "yellowgreen";
+    document.getElementById("user-surname").style.color = "darkgreen";
+    document.getElementById("user-fav-color").style.color = "lightgreen";
+}
